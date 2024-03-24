@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href= 'static/css/style.css' />
+    <title>{{title}}</title>
+    <style>
+        div {
+    background: #4a192c; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Расстояние снизу */
+    color: #fff; /* Белый цвет */
+   }
+   .semi {
+    color: rgba(0,0,0,0.8); /* Полупрозрачный цвет */
+   }
+    </style>
+</head>
+<body>
+<h1>Миссия Колонизация Марса</h1>
+<div class="semi"><h4>И на Марсе будут яблони цвести!</h4></div>
+<main role="main" class="container">
+    {% block content %}{% endblock %}
+</main>
+</body>
+</html>

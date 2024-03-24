@@ -1,0 +1,17 @@
+--
+-- Файл сгенерирован с помощью SQLiteStudio v3.4.4 в Чт мар 14 18:47:44 2024
+--
+-- Использованная кодировка текста: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Таблица: users
+CREATE TABLE users (age INTEGER, gend TEXT, pict TEXT);
+INSERT INTO users (age, gend, pict) VALUES (0, '0', 'y_m.png');
+INSERT INTO users (age, gend, pict) VALUES (0, '1', 'y_w.png');
+INSERT INTO users (age, gend, pict) VALUES (1, '0', 'o_m.png');
+INSERT INTO users (age, gend, pict) VALUES (1, '1', 'o_w.png');
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
